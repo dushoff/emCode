@@ -46,7 +46,7 @@ To create the figures, you need to follow these steps:
 
     ```R
     library(remotes)
-    remotes::install_github("dushoff/shellpipes)
+    remotes::install_github("dushoff/shellpipes")
     ```
     
 4. Clone this repository by opening a terminal window and typing the following command: 
