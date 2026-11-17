@@ -52,13 +52,13 @@ To create the figures, you need to follow these steps:
 4. Clone this repository by opening a terminal window and typing the following command: 
 
     ```bash
-    git clone git@github.com:dushoff/emStaging.git
+    git clone git@github.com:dushoff/emCode.git
     ```
     
     and then navigate to the root directory of your local repository
     
     ```bash
-    cd emStaging
+    cd emCode
     ```
     
     If you're not using *Git*, you can instead click the *Code* button at the top right of the repository's main page and then click *Download ZIP*. Unpack the *ZIP* file
