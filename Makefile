@@ -12,7 +12,7 @@ vim_session:
 ######################################################################
 
 ## Indicator for _current_ code repo for the emergent heterogeneity manuscript
-Sources += kappa.tag
+Sources += kappa.tag LICENSE.txt
 
 Ignore += $(wildcard *.pdf)
 
