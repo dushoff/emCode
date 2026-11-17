@@ -11,6 +11,8 @@ vim_session:
 
 ######################################################################
 
+release: v1.0.rrelease
+
 ## Indicator for _current_ code repo for the emergent heterogeneity manuscript
 Sources += kappa.tag LICENSE.txt
 
