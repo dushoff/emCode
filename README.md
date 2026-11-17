@@ -7,7 +7,7 @@ Secondary-case distributions are widely used to quantify transmission heterogene
 
 This code base should be cited as:
 
-> Roswell M., Aghaeeyan A., Goel T., Beckett S.J., Weitz J.S., Dushoff J. Code for investigating emergent heterogeneity in compartmental disease models. Zenodo.
+> Roswell M., Aghaeeyan A., Goel T., Beckett S.J., Weitz J.S., Dushoff J. Code for investigating emergent heterogeneity in compartmental disease models. https://doi.org/10.5281/zenodo.24319459
 
 ## Software details
 

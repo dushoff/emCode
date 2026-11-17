@@ -11,13 +11,21 @@ vim_session:
 
 ######################################################################
 
+Sources += Makefile .gitignore LICENSE.txt README.md
+
+######################################################################
+
+## zdoi:
 release: v1.0.rrelease
 
 ## Indicator for _current_ code repo for the emergent heterogeneity manuscript
-Sources += kappa.tag LICENSE.txt
+Sources += kappa.tag
+
+######################################################################
 
 Ignore += $(wildcard *.pdf)
 
+## This rule will take days to run in a new repo
 all: CohortPlot.Rout.final lsFig.Rout.final rcHist.Rout.final TimeEvolutionStack.Rout.final
 
 targets: CohortPlot.Rout.pdf lsFig.Rout.pdf rcHist.Rout.pdf TimeEvolutionStack.Rout.pdf
@@ -65,8 +73,6 @@ slowtarget/stackbarSim.Rout: stackbarSim.R params.rda funs.rda
 collaborators: tapangoel1994.invite mikeroswell.invite Aznlfr.invite sjbeckett.invite
 
 ######################################################################
-
-Sources += Makefile .gitignore
 
 Ignore += makestuff
 msrepo = https://github.com/dushoff
