@@ -77,6 +77,7 @@ collaborators: tapangoel1994.invite mikeroswell.invite Aznlfr.invite sjbeckett.i
 Ignore += makestuff
 msrepo = https://github.com/dushoff
 
+## ln -s ../makestuff . ## Do this first if you want a linked makestuff
 Ignore += makestuff*.stamp
 Makefile: makestuff01.stamp
 makestuff%.stamp: | makestuff
