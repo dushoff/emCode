@@ -2,7 +2,7 @@
 
 current: target
 -include target.mk
-Ignore += target.mk
+Ignore = target.mk
 
 vim_session:
 	bash -ic "vmt"
@@ -35,7 +35,7 @@ targets: CohortPlot.Rout.pdf lsFig.Rout.pdf rcHist.Rout.pdf TimeEvolutionStack.R
 ## targets.final.pipeR.sh:
 
 ## Try to make a map
-## targets.final.nom.dd.ns.mg.pdf:
+## targets.final.dd.mf.mg.pdf:
 
 ######################################################################
 
