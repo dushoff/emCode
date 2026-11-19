@@ -2,7 +2,7 @@
 
 current: target
 -include target.mk
-Ignore += target.mk
+Ignore = target.mk
 
 vim_session:
 	bash -ic "vmt"
