@@ -1,4 +1,4 @@
-## This is emStaging
+## This is emCode
 
 current: target
 -include target.mk
